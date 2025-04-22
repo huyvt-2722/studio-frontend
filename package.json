@@ -1,8 +1,11 @@
 {
-  "name": "@edx/studio-frontend",
+  "name": "studio-frontend",
   "version": "0.0.0-development",
   "description": "The frontend for the Open edX platform",
-  "repository": "edx/studio-frontend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyvt-2722/studio-frontend.git"
+  },
   "scripts": {
     "build": "NODE_ENV=production BABEL_ENV=production $(npm bin)/webpack --config=config/webpack.prod.config.js",
     "i18n_extract": "BABEL_ENV=i18n $(npm bin)/babel src --quiet > /dev/null",
@@ -120,5 +123,11 @@
     "globals": {
       "studioContext": {}
     }
-  }
+  },
+  "main": "setupTests.js",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/edx/studio-frontend/issues"
+  },
+  "homepage": "https://github.com/edx/studio-frontend#readme"
 }

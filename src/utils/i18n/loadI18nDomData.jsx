@@ -1,4 +1,4 @@
-import enLocaleData from 'react-intl/locale-data/en';
+import viLocaleData from 'react-intl/locale-data/vi';
 import { addLocaleData } from 'react-intl';
 
 import localeDataMap from '../../data/i18n/locales/currentlySupportedLangs';
@@ -11,9 +11,9 @@ const loadI18nDomData = () => {
     return domDefinedData;
   } catch (err) {
     // fail back to default english values if any errors
-    addLocaleData(enLocaleData);
+    addLocaleData(viLocaleData);
     return {
-      locale: 'en',
+      locale: 'vi',
       messages: {},
     };
   }
