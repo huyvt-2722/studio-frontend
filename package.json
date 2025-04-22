@@ -1,5 +1,5 @@
 {
-  "name": "studio-frontend",
+  "name": "@edx/studio-frontend",
   "version": "0.0.0-development",
   "description": "The frontend for the Open edX platform",
   "repository": {
