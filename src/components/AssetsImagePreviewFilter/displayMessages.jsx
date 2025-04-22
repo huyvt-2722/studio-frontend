@@ -3,7 +3,7 @@ import { defineMessages } from 'react-intl';
 const messages = defineMessages({
   assetsImagePreviewFilterLabel: {
     id: 'assetsImagePreviewFilterLabel',
-    defaultMessage: 'Hide File Preview',
+    defaultMessage: 'Ẩn xem trước tệp',
     description: 'Label checkbox to hide image previews in the assets table.',
   },
 });

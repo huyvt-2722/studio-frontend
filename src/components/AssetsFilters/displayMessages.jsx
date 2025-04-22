@@ -3,7 +3,7 @@ import { defineMessages } from 'react-intl';
 const messages = defineMessages({
   assetsFiltersAudio: {
     id: 'assetsFiltersAudio',
-    defaultMessage: 'Audio',
+    defaultMessage: 'Âm thanh',
     description: 'Label for audio file types',
   },
   assetsFiltersCode: {
@@ -13,22 +13,22 @@ const messages = defineMessages({
   },
   assetsFiltersDocuments: {
     id: 'assetsFiltersDocuments',
-    defaultMessage: 'Document',
+    defaultMessage: 'Tài liệu',
     description: 'Label for document file types',
   },
   assetsFiltersImages: {
     id: 'assetsFiltersImages',
-    defaultMessage: 'Image',
+    defaultMessage: 'Ảnh',
     description: 'Label for image file types',
   },
   assetsFiltersOther: {
     id: 'assetsFiltersOther',
-    defaultMessage: 'Other',
+    defaultMessage: 'Khác',
     description: 'Label for other file types',
   },
   assetsFiltersSectionLabel: {
     id: 'assetsFiltersSectionLabel',
-    defaultMessage: 'Filter by File Type',
+    defaultMessage: 'Lọc theo loại tệp',
     description: 'Label for the filter section of the page',
   },
 });

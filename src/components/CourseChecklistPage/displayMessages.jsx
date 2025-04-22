@@ -3,32 +3,32 @@ import { defineMessages } from 'react-intl';
 const messages = defineMessages({
   launchChecklistLabel: {
     id: 'launchChecklistLabel',
-    defaultMessage: 'Launch Checklist',
+    defaultMessage: 'Danh sách kiểm tra khi xuất bản',
     description: 'Header text for a checklist that describes actions to have completed before a course should launch',
   },
   bestPracticesChecklistLabel: {
     id: 'bestPracticesChecklistLabel',
-    defaultMessage: 'Best Practices Checklist',
+    defaultMessage: 'Danh sách kiểm tra các phương pháp hay nhất',
     description: 'Header text for a checklist that describes best practices for a course',
   },
   launchChecklistLoadingLabel: {
     id: 'doneLoadingChecklistStatusLabel',
-    defaultMessage: 'Launch Checklist data is loading',
+    defaultMessage: 'Dữ liệu danh sách kiểm tra khởi chạy đang được tải.',
     description: 'Label telling the user that the Launch Checklist is loading',
   },
   launchChecklistDoneLoadingLabel: {
     id: 'launchChecklistDoneLoadingLabel',
-    defaultMessage: 'Launch Checklist data is done loading',
+    defaultMessage: 'Dữ liệu danh sách kiểm tra khởi chạy đã hoàn tất tải.',
     description: 'Label telling the user that the Launch Checklist is done loading',
   },
   bestPracticesChecklistLoadingLabel: {
     id: 'bestPracticesChecklistLoadingLabel',
-    defaultMessage: 'Best Practices Checklist data is loading',
+    defaultMessage: 'Dữ liệu danh sách kiểm tra các phương pháp hay nhất đang tải.',
     description: 'Label telling the user that the Best Practices Checklist is loading',
   },
   bestPracticesChecklistDoneLoadingLabel: {
     id: 'bestPracticesChecklistDoneLoadingLabel',
-    defaultMessage: 'Best Practices Checklist data is done loading',
+    defaultMessage: 'Dữ liệu danh sách kiểm tra các phương pháp hay nhất đã tải xong',
     description: 'Label telling the user that the Best Practices Checklist is done loading',
   },
 });

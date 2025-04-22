@@ -3,17 +3,17 @@ import { defineMessages } from 'react-intl';
 const messages = defineMessages({
   assetsListNoPreview: {
     id: 'assetsListNoPreview',
-    defaultMessage: 'Preview not available',
+    defaultMessage: 'Không thể xem trước tệp',
     description: 'Label shown when no preview is available',
   },
   assetsListNameLabel: {
     id: 'assetsListNameLabel',
-    defaultMessage: 'Name',
+    defaultMessage: 'Tên',
     description: 'Label for column header',
   },
   assetsListDateLabel: {
     id: 'assetsListDateLabel',
-    defaultMessage: 'Date Added',
+    defaultMessage: 'Ngày đã thêm',
     description: 'Label for column header',
   },
 });

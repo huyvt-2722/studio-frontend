@@ -3,82 +3,82 @@ import { defineMessages } from 'react-intl';
 const messages = defineMessages({
   accessibilityPolicyFormEmailLabel: {
     id: 'accessibilityPolicyFormEmailLabel',
-    defaultMessage: 'Email Address',
+    defaultMessage: 'Địa chỉ email',
     description: 'Label for the email form field',
   },
   accessibilityPolicyFormError: {
     id: 'accessibilityPolicyFormError',
-    defaultMessage: 'Error',
+    defaultMessage: 'Lỗi',
     description: 'Error message for screen-reader text',
   },
   accessibilityPolicyFormErrorHighVolume: {
     id: 'accessibilityPolicyFormErrorHighVolume',
-    defaultMessage: 'We are currently experiencing high volume. Try again later today or send an email message to {emailLink}.',
+    defaultMessage: 'Hiện tại chúng tôi đang gặp phải lưu lượng cao. Vui lòng thử lại sau trong ngày hôm nay hoặc gửi email đến {emailLink}.',
     description: 'Error message when site is experiencing high volume that will include an email link',
   },
   accessibilityPolicyFormErrorMissingFields: {
     id: 'accessibilityPolicyFormErrorMissingFields',
-    defaultMessage: 'Make sure to fill in all fields.',
+    defaultMessage: 'Hãy chắc chắn điền đầy đủ tất cả các trường.',
     description: 'Error message to instruct user to fill in all fields',
   },
   accessibilityPolicyFormFieldsRequired: {
     id: 'accessibilityPolicyFormFieldsRequired',
-    defaultMessage: 'All fields are required.',
+    defaultMessage: 'Tất cả các trường đều là bắt buộc.',
     description: 'Instructions at the top of the form telling the user to fill in all fields',
   },
   accessibilityPolicyFormHeader: {
     id: 'accessibilityPolicyFormHeader',
-    defaultMessage: 'Studio Accessibility Feedback',
+    defaultMessage: 'Phản hồi về khả năng truy cập Studio',
     description: 'The heading for the form',
   },
   accessibilityPolicyFormMessageLabel: {
     id: 'accessibilityPolicyFormMessageLabel',
-    defaultMessage: 'Message',
+    defaultMessage: 'Tin nhắn',
     description: 'Label for the message form field',
   },
   accessibilityPolicyFormNameLabel: {
     id: 'accessibilityPolicyFormNameLabel',
-    defaultMessage: 'Name',
+    defaultMessage: 'Tên',
     description: 'Label for the name form field',
   },
   accessibilityPolicyFormSubmitAria: {
     id: 'accessibilityPolicyFormSubmitAria',
-    defaultMessage: 'Submit Accessibility Feedback Form',
+    defaultMessage: 'Gửi mẫu phản hồi về khả năng truy cập',
     description: 'Detailed aria-label for the submit button',
   },
   accessibilityPolicyFormSubmitLabel: {
     id: 'accessibilityPolicyFormSubmitLabel',
-    defaultMessage: 'Submit',
+    defaultMessage: 'Phản hồi',
     description: 'General label for the submit button',
   },
   accessibilityPolicyFormSubmittingFeedbackLabel: {
     id: 'accessibilityPolicyFormSubmittingFeedbackLabel',
-    defaultMessage: 'Submitting feedback',
+    defaultMessage: 'Đang gửi phản hồi',
     description: 'Loading message while form feedback is being submitted',
   },
   accessibilityPolicyFormSuccess: {
     id: 'accessibilityPolicyFormSuccess',
-    defaultMessage: 'Thank you for contacting edX!',
+    defaultMessage: 'Cảm ơn bạn đã liên hệ với edX!',
     description: 'Simple thank you message when form submission is successful',
   },
   accessibilityPolicyFormSuccessDetails: {
     id: 'accessibilityPolicyFormSuccessDetails',
-    defaultMessage: 'Thank you for your feedback regarding the accessibility of Studio. We typically respond within one business day ({day_start} to {day_end}, {time_start} to {time_end}).',
+    defaultMessage: 'Cảm ơn bạn đã phản hồi về tính khả dụng của Studio. Chúng tôi thường phản hồi trong vòng một ngày làm việc ({day_start} đến {day_end}, {time_start} đến {time_end}).',
     description: 'Detailed thank you message when form submission is successful',
   },
   accessibilityPolicyFormValidEmail: {
     id: 'accessibilityPolicyFormValidEmail',
-    defaultMessage: 'Enter a valid email address.',
+    defaultMessage: 'Vui lòng nhập một địa chỉ email hợp lệ.',
     description: 'Error message for when an invalid email is entered into the form',
   },
   accessibilityPolicyFormValidMessage: {
     id: 'accessibilityPolicyFormValidMessage',
-    defaultMessage: 'Enter a message.',
+    defaultMessage: 'Vui lòng nhập một tin nhắn.',
     description: 'Error message an invalid message is entered into the form',
   },
   accessibilityPolicyFormValidName: {
     id: 'accessibilityPolicyFormValidName',
-    defaultMessage: 'Enter a name.',
+    defaultMessage: 'Vui lòng nhập tên.',
     description: 'Error message an invalid name is entered into the form',
   },
 });

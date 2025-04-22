@@ -3,17 +3,17 @@ import { defineMessages } from 'react-intl';
 const messages = defineMessages({
   assetsSearchInputLabel: {
     id: 'assetsSearchInputLabel',
-    defaultMessage: 'Search',
+    defaultMessage: 'Tìm kiếm',
     description: 'Label for search input',
   },
   assetsSearchSubmitLabel: {
     id: 'assetsSearchSubmitLabel',
-    defaultMessage: 'Submit search',
+    defaultMessage: 'Gửi tìm kiếm',
     description: 'Label for search submit button that has a magnifying glass icon',
   },
   assetsClearSearchButtonLabel: {
     id: 'assetsClearSearchButtonLabel',
-    defaultMessage: 'Clear search',
+    defaultMessage: 'Xoá tìm kiếm',
     description: 'Label for a button that clears the search applied to a table.',
   },
 });

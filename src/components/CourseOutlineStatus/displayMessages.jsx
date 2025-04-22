@@ -8,42 +8,42 @@ const messages = defineMessages({
   },
   checklistsStatusLabel: {
     id: 'checklistsStatusLabel',
-    defaultMessage: 'Checklists',
+    defaultMessage: 'Danh sách kiểm tra',
     description: 'Label for a section that describes a checklist',
   },
   checklistStatusLoadingLabel: {
     id: 'checklistStatusLoadingLabel',
-    defaultMessage: 'Checklists data is loading',
+    defaultMessage: 'Danh sách kiểm tra đang tải',
     description: 'Label telling the user that a checklist status is loading',
   },
   checklistStatusDoneLoadingLabel: {
     id: 'checklistStatusDoneLoadingLabel',
-    defaultMessage: 'Checklists data is done loading',
+    defaultMessage: 'Dữ liệu danh sách kiểm tra đã tải xong.',
     description: 'Label telling the user that a checklist status is done loading',
   },
   loadingIconLabel: {
     id: 'loadingIconLabel',
-    defaultMessage: 'Loading',
+    defaultMessage: 'Đang tải',
     description: 'Label for a loading icon',
   },
   startDateStatusLabel: {
     id: 'startDateStatusLabel',
-    defaultMessage: 'Start Date',
+    defaultMessage: 'Ngày bắt đầu',
     description: 'Header text for a section that describe\'s the date a course starts',
   },
   pacingTypeStatusLabel: {
     id: 'pacingTypeStatusLabel',
-    defaultMessage: 'Pacing Type',
+    defaultMessage: 'Loại tiến độ',
     description: 'Header text for a section that describe\'s the pacing type of a course',
   },
   pacingTypeInstructorPaced: {
     id: 'pacingTypeInstructorPaced',
-    defaultMessage: 'Instructor-Paced',
+    defaultMessage: 'Có hướng dẫn',
     description: 'Text that describe\'s a course that follows a schedule set by an instructor',
   },
   pacingTypeSelfPaced: {
     id: 'pacingTypeSelfPaced',
-    defaultMessage: 'Self-Paced',
+    defaultMessage: 'Tự học',
     description: 'Text that describe\'s a course that does not have a set schedule',
   },
 });

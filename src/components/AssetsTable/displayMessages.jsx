@@ -3,67 +3,67 @@ import { defineMessages } from 'react-intl';
 const messages = defineMessages({
   assetsTablePreviewLabel: {
     id: 'assetsTablePreviewLabel',
-    defaultMessage: 'Image Preview',
+    defaultMessage: 'Chế độ xem trước hình ảnh.',
     description: 'Label for column header',
   },
   assetsTableNameLabel: {
     id: 'assetsTableNameLabel',
-    defaultMessage: 'Name',
+    defaultMessage: 'Tên',
     description: 'Label for column header',
   },
   assetsTableTypeLable: {
     id: 'assetsTableTypeLable',
-    defaultMessage: 'Type',
+    defaultMessage: 'Loại',
     description: 'Label for column header',
   },
   assetsTableDateLabel: {
     id: 'assetsTableDateLabel',
-    defaultMessage: 'Date Added',
+    defaultMessage: 'Ngày đã thêm',
     description: 'Label for column header',
   },
   assetsTableCaption: {
     id: 'assetsTableCaption',
-    defaultMessage: 'Assets Table',
+    defaultMessage: 'Bảng tài nguyên',
     description: 'Table specific caption for a high level description',
   },
   assetsTableCopyLabel: {
     id: 'assetsTableCopyLabel',
-    defaultMessage: 'Copy URLs',
+    defaultMessage: 'Sao chép URL',
     description: 'Label for column header',
   },
   assetsTableDeleteLabel: {
     id: 'assetsTableDeleteLabel',
-    defaultMessage: 'Delete Asset',
+    defaultMessage: 'Xoá tài nguyên',
     description: 'Label for column header',
   },
   assetsTableLockLabel: {
     id: 'assetsTableLockLabel',
-    defaultMessage: 'Lock Asset',
+    defaultMessage: 'Khoá tài nguyên',
     description: 'Label for column header',
   },
   assetsTableNoDescription: {
     id: 'assetsTableNoDescription',
-    defaultMessage: 'Description not available',
+    defaultMessage: 'Mô tả không có sẵn.',
     description: 'Label shown when no description is available',
   },
   assetsTableNoPreview: {
     id: 'assetsTableNoPreview',
-    defaultMessage: 'Preview not available',
+    defaultMessage: 'Xem trước không có sẵn',
     description: 'Label shown when no preview is available',
   },
   assetsTableLockedObject: {
     id: 'assetsTableLockedObject',
-    defaultMessage: 'Locked {object}',
+    defaultMessage: 'Khoá {object}',
     description: 'States that an object has just been locked',
   },
   assetsTableUnlockedObject: {
     id: 'assetsTableUnlockedObject',
-    defaultMessage: 'Unlocked {object}',
+    defaultMessage: 'Mở khoá {object}',
     description: 'States that an object has just been unlocked',
   },
   assetsTableUpdateLock: {
     id: 'assetsTableUpdateLock',
-    defaultMessage: 'Updating lock status for {assetName}.',
+    defaultMessage: 'Đang cập nhật trạng thái khóa cho {assetName}.',
     description: 'States that the lock status of an item is updating',
   },
   assetsTableStudioLink: {
@@ -78,42 +78,42 @@ const messages = defineMessages({
   },
   assetsTableCopiedStatus: {
     id: 'assetsTableCopiedStatus',
-    defaultMessage: 'Copied',
+    defaultMessage: 'Đã sao chép',
     description: 'States that a URL was copied',
   },
   assetsTableDetailedCopyLink: {
     id: 'assetsTableDetailedCopyLink',
-    defaultMessage: '{displayName} copy {label} URL',
+    defaultMessage: '{displayName} sao chép URL {label}.',
     description: 'Labels a button that is used to copy the studio/web URL for a given item',
   },
   assetsTableDeleteObject: {
     id: 'assetsTableDeleteObject',
-    defaultMessage: 'Delete File',
+    defaultMessage: 'Xoá tệp',
     description: 'Heading on the modal used to delete a file',
   },
   assetsTableCancel: {
     id: 'assetsTableCancel',
-    defaultMessage: 'Cancel',
+    defaultMessage: 'Huỷ bỏ',
     description: 'Labels the "Cancel" button in a modal',
   },
   assetsTablePermaDelete: {
     id: 'assetsTablePermaDelete',
-    defaultMessage: 'Permanently delete',
+    defaultMessage: 'Xoá vĩnh viễn',
     description: 'Indicates a non-recoverable, permanent delete',
   },
   assetsTableLearnMore: {
     id: 'assetsTableLearnMore',
-    defaultMessage: 'Learn more.',
+    defaultMessage: 'Tìm hiểu thêm.',
     description: 'Label for a documentation link',
   },
   assetsTableDeleteWarning: {
     id: 'assetsTableDeleteWarning',
-    defaultMessage: 'Deleting {displayName} cannot be undone.',
+    defaultMessage: 'Việc xóa {displayName} không thể hoàn tác.',
     description: 'Warning that indicates the delete operation is permanent',
   },
   assetsTableDeleteConsequences: {
     id: 'assetsTableDeleteConsequences',
-    defaultMessage: 'Any links or references to this file will no longer work. {link}',
+    defaultMessage: 'Mọi liên kết hoặc tham chiếu đến tệp này sẽ không còn hoạt động. {link}',
     description: 'Warns of the consequences of deleting an item',
   },
 });
